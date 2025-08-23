@@ -1,12 +1,8 @@
 # Personal Portfolio Website
 
-<<<<<<< HEAD
 Welcome to my **personal developer portfolio**, a modern and interactive website showcasing my journey as a **Software Developer & AI/ML Enthusiast**.  
 
 This isn’t just a static portfolio — it features an **AI-powered assistant (Erick’s AI Chat)** that allows visitors to interact and ask questions dynamically, thanks to OpenAI integration.  
-=======
-This is a personal portfolio website for Erick Ondiwa, a Computer Science student at Maseno University with a passion for Data Science and Machine Learning.
->>>>>>> dafca0d025acaaacb5a655286160e7dfbbe1ac0f
 
 ## Project Structure
 
@@ -21,7 +17,6 @@ This is a personal portfolio website for Erick Ondiwa, a Computer Science studen
 
 ## How to Run
 
-<<<<<<< HEAD
 ## 🛠️ Tech Stack
 
 - **Frontend**: React (Vite) + JavaScript  
@@ -69,7 +64,3 @@ This project is open-source under the [MIT License](LICENSE).
 
 ### 🙌 Thank you for visiting!
 Feel free to clone, fork, or reach out if you'd like to collaborate. Let’s build amazing things together!
-=======
-1.  Clone this repository.
-2.  Open the `index.html` file in your web browser.
->>>>>>> dafca0d025acaaacb5a655286160e7dfbbe1ac0f

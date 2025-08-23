@@ -1,21 +1,37 @@
-# Personal Portfolio Website
+# 🌟 Erick Ondiwa — Personal Portfolio
 
 Welcome to my **personal developer portfolio**, a modern and interactive website showcasing my journey as a **Software Developer & AI/ML Enthusiast**.  
 
-This isn’t just a static portfolio — it features an **AI-powered assistant (Erick’s AI Chat)** that allows visitors to interact and ask questions dynamically, thanks to OpenAI integration.  
+This isn’t just a static portfolio — it features an **AI-powered assistant (Erick’s AI Chat)** that allows visitors to interact and ask questions dynamically, thanks to OpenAI integration. 
 
-## Project Structure
+# 📂 Project Structure
+project-root/
+├── frontend/               # React (Vite) frontend
+│   ├── public/             # Static assets (favicon, robots.txt, etc.)
+│   ├── src/                # Source code
+│   │   ├── assets/         # Images, icons, and static media
+│   │   ├── components/     # Reusable UI components (Navbar, Footer, etc.)
+│   │   ├── sections/       # Page sections (Hero, About, Projects, Contact, etc.)
+│   │   ├── App.jsx         # Main app component
+│   │   ├── main.jsx        # React entry point
+│   │   └── index.css       # Global styles
+│   ├── package.json        # Frontend dependencies & scripts
+│   └── vite.config.js      # Vite configuration
+│
+├── server/                 # Node.js + Express backend
+│   ├── routes/             # API route definitions
+│   ├── controllers/        # Route handler logic
+│   ├── middlewares/        # Custom middleware (auth, error handling, etc.)
+│   ├── utils/              # Helper functions
+│   ├── server.js           # Express app entry point
+│   ├── package.json        # Backend dependencies & scripts
+│   └── .env                # Environment variables (ignored in git)
+│
+├── .gitignore              # Ignored files/folders
+├── README.md               # Project documentation
+└── LICENSE                 # (Optional) Project license 
 
-*   `index.html`: The main landing page of the website.
-*   `about.html`: Contains information about Erick's skills and background.
-*   `blog.html`, `blog1.html`: Blog pages.
-*   `contact.html`, `contactForm.html`: Pages for contacting Erick.
-*   `potforlio.html`: Showcases Erick's projects.
-*   `styles/`: Contains CSS files for styling the website.
-*   `scripts/`: Contains JavaScript files for website functionality.
-*   `imgs/`: Contains images used in the website.
-
-## How to Run
+---
 
 ## 🛠️ Tech Stack
 
@@ -40,6 +56,7 @@ This isn’t just a static portfolio — it features an **AI-powered assistant (
 - ⚙️ Planned: Django backend for blog entries, advanced contact form, and data handling  
 
 ---
+
 
 
 <!-- ## 📸 Screenshots

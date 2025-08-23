@@ -1,0 +1,152 @@
+body {
+  font-family: 'Roboto', sans-serif; /* Changed */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: hsla(245, 92%, 10%, 0.98); /* Changed */
+  color: hsl(0, 0%, 85%); /* Changed */
+  padding-bottom: 60px; /* For fixed footer, adjusted in media query */
+}
+
+header {
+  background-color: #222; /* Slightly darker than #333 for better contrast */
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #fff; /* Ensure it's white */
+}
+
+header p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 80%); /* Lighter gray for subtitle */
+}
+
+.main {
+  padding: 1rem;
+}
+
+.blog-post-list article {
+  background: hsla(245, 92%, 15%, 0.98); /* Changed */
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid hsla(245, 92%, 25%, 0.98); /* Changed */
+  border-radius: 5px; /* Add a slight border-radius */
+}
+
+.blog-post-list h2 {
+  margin-top: 0;
+  color: hsl(0, 0%, 95%); /* Lighter text for headings */
+}
+
+.blog-post-list .date {
+  color: hsl(0, 0%, 60%); /* Changed for dark theme */
+}
+
+.blog-post-list .read-more,
+.related-posts ul li a {
+  color: hsl(145, 90%, 49%); /* Changed to green accent */
+  text-decoration: none;
+}
+
+.blog-post-list .read-more:hover,
+.related-posts ul li a:hover {
+  text-decoration: underline;
+  color: hsl(145, 90%, 55%); /* Slightly brighter green on hover */
+}
+
+.author-bio {
+  background: hsla(245, 92%, 20%, 0.98); /* Changed */
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 5px; /* Add a slight border-radius */
+  color: hsl(0, 0%, 85%); /* Ensure text is light */
+}
+
+.author-bio h3 {
+  margin-top: 0;
+  color: hsl(0, 0%, 95%); /* Lighter text */
+}
+
+.comments {
+  margin-top: 2rem;
+}
+.comments h3{
+  color: hsl(0, 0%, 95%);
+}
+
+
+.related-posts {
+  margin-top: 2rem;
+}
+
+.related-posts h3{
+  color: hsl(0, 0%, 95%);
+}
+
+.related-posts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.related-posts ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #222; /* Match header */
+  color: hsl(0, 0%, 80%); /* Ensure text is light */
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 60px; /* Defined height */
+}
+
+/* Responsive Media Queries (kept from previous step) */
+@media (max-width: 768px) {
+  body {
+      padding-bottom: 0; /* Remove padding as footer is no longer fixed */
+  }
+  header {
+      padding: 0.8rem 0;
+  }
+  header h1 {
+      font-size: 1.8rem;
+  }
+  header p {
+      font-size: 1rem;
+  }
+  .main {
+      padding: 1rem 15px; /* Add horizontal padding */
+  }
+  footer {
+      position: static; /* Change from fixed to static */
+      height: auto; /* Allow height to be natural */
+      margin-top: 2rem; /* Add some margin when it becomes static */
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+      padding: 0.6rem 0;
+  }
+  header h1 {
+      font-size: 1.5rem;
+  }
+  header p {
+      font-size: 0.9rem;
+  }
+  .blog-post-list article {
+      padding: 0.8rem;
+  }
+  .blog-post-list h2 {
+      font-size: 1.3rem;
+  }
+}

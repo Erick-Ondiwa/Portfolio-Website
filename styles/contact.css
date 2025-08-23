@@ -1,0 +1,101 @@
+p{
+  color: hsl(0, 2%, 66%);
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+.contactMe{
+  font-size: 1.2em;
+  margin-bottom: 0;
+  width: 800px;
+}
+.whatsNext{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.whatsNext p{
+  margin-top: 50px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(13, 238, 107);
+}
+.whatsNext h1{
+  color: hsla(0, 0%, 100%, 0.52);
+  font-size: 4em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.contactButton{
+  font-size: 1.2em;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  /* background-color: hsl(120, 100%, 48%); Old */
+  background-color: hsl(145, 90%, 49%); /* New: Consistent Green accent */
+  color: #fff; /* Add white text color for consistency */
+  border-radius: 8px; /* Match .btn-resume */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition */
+}
+.contactButton:hover{
+  /* box-shadow: 2px 2px 3px hsla(0, 0%, 100%, 0.979); Old */
+  /* background-color: hsla(120, 100%, 48%, 0.499); Old */
+  background-color: hsl(145, 90%, 55%); /* New: Brighter green */
+  /* Consider a subtle shadow like .btn-resume if desired, e.g. box-shadow: 0 2px 8px rgba(0,0,0,0.2); */
+}
+.quickLinks{
+  cursor: pointer;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.quickLinks a{
+  align-items: center;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  margin: 5px;
+  
+}
+.quickLinks a:hover {
+  background-color: #555;
+  box-shadow: 2px 2px 3px hsla(0, 0%, 100%, 0.979);
+}
+
+@media (max-width: 830px) {
+  .contactMe {
+    width: 95%; /* Or 90% */
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box; /* To include padding in width calculation */
+  }
+}
+
+@media (max-width: 768px) {
+  .whatsNext h1 {
+    font-size: 3em; /* Adjust from 4em */
+  }
+}
+
+@media (max-width: 480px) {
+  .whatsNext h1 {
+    font-size: 2.2em;
+  }
+  .whatsNext p {
+    font-size: 1em; /* Adjust from 1.2em */
+  }
+  .contactMe p { /* General paragraph in contactMe */
+    font-size: 1em; /* Adjust from 1.2em */
+  }
+  .contactButton {
+    font-size: 1em; /* Adjust from 1.2em */
+    padding: 8px 16px;
+  }
+  .quickLinks a {
+    font-size: 0.9em;
+    padding: 6px;
+  }
+}

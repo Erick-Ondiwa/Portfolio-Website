@@ -1,7 +1,8 @@
 # 🧑‍💻 Erick Ondiwa – Portfolio Website
 
-Welcome to my personal portfolio website!  
-This is a web-based portfolio that showcases my skills, projects, and career journey as an aspiring Data Scientist and Machine Learning Engineer.
+Welcome to my **personal developer portfolio**, a modern and interactive website showcasing my journey as a **Software Developer & AI/ML Enthusiast**.  
+
+This isn’t just a static portfolio — it features an **AI-powered assistant (Erick’s AI Chat)** that allows visitors to interact and ask questions dynamically, thanks to OpenAI integration.  
 
 [Portfolio Preview](./imgs/home.png)
 
@@ -13,23 +14,28 @@ This is a web-based portfolio that showcases my skills, projects, and career jou
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **Styling**: Custom CSS, Flexbox & Grid
-- **Backend**: Django *(in progress / planned)*  
-- **Hosting**: GitHub Pages
+- **Frontend**: React (Vite) + JavaScript  
+- **Styling**: Tailwind CSS + Framer Motion (animations)  
+- **AI Integration**: OpenAI API (Erick’s AI Assistant)  
+- **Backend**: Express.js *(currently for AI API proxy, Django planned)*  
+- **Icons & UI**: Lucide React, shadcn/ui  
+- **Hosting**: GitHub Pages / Vercel *(depending on deployment)*  
 
 ---
 
 ## 🧩 Features
 
-- 🔥 Clean and modern UI
-- 📄 Resume and About Me section
-- 📁 Projects section with GitHub links
-- 📬 Contact form for direct communication
-- 🌐 Responsive design for mobile and desktop
-- ⚙️ (Optional) Backend to handle blog entries and contact form
+- ✨ Hero section with interactive background and call-to-actions  
+- 🔥 Clean, modern, and animated UI (Framer Motion)  
+- 🤖 AI Chat Assistant (connected to OpenAI API)  
+- 📄 Resume and About Me section  
+- 📁 Projects showcase with GitHub/Live links  
+- 📬 Contact form for direct communication  
+- 🌐 Fully responsive design (mobile, tablet, desktop)  
+- ⚙️ Planned: Django backend for blog entries, advanced contact form, and data handling  
 
 ---
+
 
 <!-- ## 📸 Screenshots
 

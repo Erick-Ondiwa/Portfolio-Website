@@ -20,7 +20,7 @@ const About = () => {
         <div className="mb-8 md:mb-0 relative">
           <div className="absolute inset-0 w-48 h-48 md:w-64 md:h-64 rounded-full bg-green-500 blur-2xl opacity-30 animate-pulse"></div>
           <img
-            src="/images/profile.png"
+            src="images/profile.png"
             alt="Erick Ochieng"
             className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-green-400 shadow-xl relative z-10 transform transition hover:scale-105"
           />

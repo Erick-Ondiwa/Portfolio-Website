@@ -22,37 +22,70 @@ const AIChat = () => {
     e.preventDefault();
     if (!input.trim()) return;
 
-    // Add user message
     const newMessage = { from: "user", text: input };
     setMessages((prev) => [...prev, newMessage]);
-    setInput(""); // clear input
+    setInput("");
     setLoading(true);
 
     try {
-      // Call your backend (make sure it’s running on this URL/port)
-      const res = await fetch("http://localhost:8787/api/chat", {
+      const res = await fetch("/api/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: input }),
+        body: JSON.stringify({ question: input }),
       });
 
       const data = await res.json();
 
-      // Add AI reply
       setMessages((prev) => [
         ...prev,
-        { from: "ai", text: data.reply || "🤖 Sorry, I couldn’t understand that." }
+        { from: "ai", text: data.answer || "🤖 Sorry, I couldn’t understand that." },
       ]);
     } catch (error) {
       console.error("Error talking to AI:", error);
       setMessages((prev) => [
         ...prev,
-        { from: "ai", text: "⚠️ Oops! Something went wrong. Try again." }
+        { from: "ai", text: "⚠️ Oops! Something went wrong. Try again." },
       ]);
     } finally {
       setLoading(false);
     }
   };
+
+  // const handleSend = async (e) => {
+  //   e.preventDefault();
+  //   if (!input.trim()) return;
+
+  //   // Add user message
+  //   const newMessage = { from: "user", text: input };
+  //   setMessages((prev) => [...prev, newMessage]);
+  //   setInput(""); // clear input
+  //   setLoading(true);
+
+  //   try {
+  //     // Call your backend (make sure it’s running on this URL/port)
+  //     const res = await fetch("http://localhost:8787/api/chat", {
+  //       method: "POST",
+  //       headers: { "Content-Type": "application/json" },
+  //       body: JSON.stringify({ message: input }),
+  //     });
+
+  //     const data = await res.json();
+
+  //     // Add AI reply
+  //     setMessages((prev) => [
+  //       ...prev,
+  //       { from: "ai", text: data.reply || "🤖 Sorry, I couldn’t understand that." }
+  //     ]);
+  //   } catch (error) {
+  //     console.error("Error talking to AI:", error);
+  //     setMessages((prev) => [
+  //       ...prev,
+  //       { from: "ai", text: "⚠️ Oops! Something went wrong. Try again." }
+  //     ]);
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
   return (
     <>

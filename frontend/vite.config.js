@@ -10,8 +10,6 @@ export default defineConfig({
   ],
   base: "/Portfolio-Website/", 
   server: {
-    proxy: { '/api': 'http://localhost:8787' }
+    proxy: { '/api': 'http://localhost:5000' }
   }
 })
-
-

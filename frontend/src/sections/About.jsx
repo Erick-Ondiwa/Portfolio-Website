@@ -3,7 +3,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex flex-col items-center justify-center px-6 py-16 md:px-20"
+      className="min-h-screen flex flex-col items-center justify-center px-6 py-2 md:px-20"
       style={{ fontFamily: "Roboto, sans-serif" }}
     >
       {/* Section Title */}

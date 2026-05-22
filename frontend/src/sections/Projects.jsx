@@ -4,10 +4,18 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
+    title: "FiSH",
+    description:
+      "An intelligent aquaculture advisory platform that helps fish farmers optimize feeding, monitor fish growth, and detect diseases using AI-powered insights and real-time farm analytics.",
+    image: "/images/projects/fish.png",
+    github: "https://github.com/erick-ondiwa/fish",
+    live: "https://fish-305sijtaw-erick-ondiwas-projects.vercel.app/",
+  },
+  {
     title: "PODEx",
     description:
       "An AI-powered educational platform designed to identify potential, map dreams, expose learners, and create opportunities.",
-    image: "/projects/podex.png",
+    image: "/images/projects/podex.png",
     github: "https://github.com/erick-ondiwa/podex",
     live: "https://podex.example.com",
   },
@@ -15,16 +23,16 @@ const projects = [
     title: "School Management System",
     description:
       "A full-stack system with role-based authentication, attendance, results, and course enrollment modules.",
-    image: "/projects/schoolms.png",
+    image: "/images/projects/sms.png",
     github: "https://github.com/erick-ondiwa/school-management",
     live: "https://schoolms.example.com",
   },
   {
-    title: "Vibly",
+    title: "HADAIR",
     description:
-      "A collaborative project management and productivity platform built with React, Django, and PostgreSQL.",
-    image: "/projects/vibly.png",
-    github: "https://github.com/erick-ondiwa/vibly",
+      "A hybrid anomaly detection and Automated incident response system",
+    image: "/images/projects/hadair.png",
+    github: "https://github.com/erick-ondiwa/hadair",
     live: "https://vibly.example.com",
   },
 ];
@@ -90,7 +98,7 @@ const Projects = () => {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-110"
+              className="w-full h-56 object-fit transition-transform duration-300 group-hover:scale-110"
             />
 
             {/* Overlay */}

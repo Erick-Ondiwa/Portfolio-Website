@@ -52,7 +52,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex flex-col items-center justify-center px-6 py-20 md:px-20 bg-gradient-to-b from-gray-950 to-gray-900"
+      className="min-h-screen flex flex-col items-center justify-center px-6 py-20 md:px-2 bg-gradient-to-b from-gray-950 to-gray-900"
       style={{ fontFamily: "Roboto, sans-serif" }}
     >
       {/* Title */}

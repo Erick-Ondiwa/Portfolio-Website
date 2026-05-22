@@ -109,7 +109,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="text-center text-sm text-gray-500 mt-10 border-t border-gray-700 pt-6">
-        © {new Date().getFullYear()} Erick O. Ondiwa. All rights reserved.
+        © {new Date().getFullYear()} Erick Ondiwa. All rights reserved.
       </div>
     </footer>
   );

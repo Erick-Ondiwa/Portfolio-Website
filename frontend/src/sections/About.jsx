@@ -52,7 +52,7 @@ const About = () => {
 
           {/* CTA */}
           <a
-            href="/resume.pdf"
+            href="/images/ERICK ONDIWA_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-3 rounded-lg font-medium text-gray-900 bg-green-400 transition transform hover:scale-105 hover:bg-green-500"

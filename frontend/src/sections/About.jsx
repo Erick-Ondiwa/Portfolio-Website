@@ -34,7 +34,7 @@ const About = () => {
             <strong> AI & ML Enthusiast</strong>.  
           </p>
           <p className="text-gray-400 mb-6 leading-relaxed">
-            Currently pursuing Computer Science at Maseno University. I thrive on building intelligent, scalable, and secure systems through hands-on experience and collaboration.  
+            I am a fresh graduate of Computer Science at Maseno University. I thrive on building intelligent, scalable, and secure systems through hands-on experience and collaboration.  
           </p>
           <p className="text-gray-400 mb-6 leading-relaxed">
             I have hands-on experience with 
@@ -46,7 +46,7 @@ const About = () => {
           {/* Key Highlights */}
           <ul className="text-gray-300 mb-8 space-y-2">
             <li>✔ Internship at <span className="text-green-400">Agile Business Solutions Ltd</span></li>
-            <li>✔ Technical Lead for <span className="text-green-400">PODEx Project</span></li>
+            <li>✔ Technical Lead for <span className="text-green-400">FiSH Project</span></li>
             <li>✔ Organizing Secretary of <span className="text-green-400">Ajira Digital Club</span></li>
           </ul>
 

@@ -28,7 +28,7 @@ const Hero = () => {
 
       {/* Expanded Description */}
       <p className="max-w-2xl text-gray-400 mb-6 animate-fadeIn delay-300">
-        I’m a third-year Computer Science student and software developer
+        I’m a Computer Science fresh graduate and software developer
         passionate about building intelligent systems and modern web
         applications. Skilled in React, Django, and Python, I love solving
         real-world problems through AI, machine learning, and full-stack

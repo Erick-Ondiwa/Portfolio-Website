@@ -1,26 +1,39 @@
 // src/sections/Experience.jsx
 import { motion } from "framer-motion";
 import { Briefcase } from "lucide-react";
-
 const experiences = [
   {
     role: "Software Developer Intern",
     company: "Agile Business Solutions Limited",
-    period: "Jun 2024 – Aug 2024",
+    period: "May 2025 – Aug 2025",
     description: [
-      "Developed and modernized a full-stack School Management System using React, .NET Core, and SQL Server.",
-      "Implemented role-based authentication, token-based redirection, and secure API integration.",
-      "Collaborated with senior engineers in an Agile environment using GitHub for version control.",
+      "Collaborated with senior developers in the development of full-stack systems with React frontend and .NET Core backend, emphasizing modular and testable service architecture.",
+      "Implemented role-based authentication and secure JWT-based APIs, ensuring predictable and auditable access control.",
+      "Optimized cloud-hosted solutions, reducing system latency by 30% while maintaining deterministic behaviour across environments.",
+      "Participated in Agile sprints, peer code reviews, and systematic unit testing to uphold engineering precision and code reliability.",
     ],
   },
   {
     role: "Technical Lead",
-    company: "PODEx Project",
-    period: "2025 – Present",
+    company: "PODEx – Educational Platform",
+    period: "Apr 2026 – Present",
     description: [
-      "Leading the development of PODEx, an AI-powered educational platform.",
-      "Coordinating a modular, phase-based approach to ensure scalability and security.",
-      "Integrating intelligent features: mentorship matching, dream mapping, and personalized learning paths.",
+      "Leading the design and development of an AI-driven educational ecosystem that identifies learners’ potential, maps dreams, and recommends personalized opportunities.",
+      "Architecting a scalable, modular system using React and Django REST Framework with secure JWT authentication and role-based dashboards.",
+      "Integrating machine learning models for predictive analytics on student performance and potential analysis.",
+      "Managing cross-functional collaboration through Agile sprints and GitHub version control.",
+    ],
+  },
+  {
+    role: "Technical Lead",
+    company: "FiSH (Farmers Intelligent Support Hub)",
+    period: "Nov 2025 – Apr 2026",
+    description: [
+      "Led the development of a production-ready intelligent aquaculture system integrating feeding management, growth monitoring, and disease detection modules.",
+      "Built scalable REST APIs using Django REST Framework with secure authentication, scheduling workflows, and real-time notification systems.",
+      "Developed machine learning workflows for fish disease prediction and growth analysis using structured farm and environmental data.",
+      "Designed intelligent feeding features including session tracking, feeding history, automated reminders, and feed recommendation logic.",
+      "Coordinated Agile development workflows using Git and GitHub while maintaining modular architecture and clean code practices.",
     ],
   },
 ];

@@ -9,7 +9,7 @@ const projects = [
       "An intelligent aquaculture advisory platform that helps fish farmers optimize feeding, monitor fish growth, and detect diseases using AI-powered insights and real-time farm analytics.",
     image: "/images/projects/fish.png",
     github: "https://github.com/erick-ondiwa/fish",
-    live: "https://fish-305sijtaw-erick-ondiwas-projects.vercel.app/",
+    live: "https://fish-kappa.vercel.app/",
   },
   {
     title: "PODEx",
